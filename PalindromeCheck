@@ -11,7 +11,7 @@ import java.util.*;
           StringBuffer str2=new StringBuffer(str.reverse());
           String s2=new String(str2);
           System.out.println("THE REVERSED STRING IS: "+str2);
-            if(a.equals(s2))    
+            if(a.equalsIgnoreCase(s2))    
                 System.out.println("ITS A PALINDROME");
             else
                 System.out.println("ITS NOT A PALINDROME");
